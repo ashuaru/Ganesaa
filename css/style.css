@@ -1,0 +1,70 @@
+
+.navbar a.right {
+    float: right;
+    display:block;
+    color:rgb(65, 154, 199);
+    font-size: 23px;
+    text-align: center;
+    padding: 20px;
+
+  }
+
+  .navbar a.right:hover{
+    background-color: #ddd;
+    color: black;
+  }
+
+  div h1{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-style: extra-bold;
+    word-wrap: break-word;
+  }
+
+  .floatRight
+  {
+    
+   width:900px;
+   height:470px;
+   float:right;
+  
+  }
+
+  .blink {
+    color:rgb(134, 55, 224);
+    font-size: 25px;
+    font-weight: bold;
+    text-align:center;
+    animation: blinker 1.5s linear infinite;
+    font-family: sans-serif;
+    
+  }
+
+  @keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.action{
+  text-align: center;
+}
+
+
+
+
